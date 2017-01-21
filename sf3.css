@@ -9,8 +9,8 @@ body{
 	margin: 0;
 	font-family:	'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif!important;
 	font-weight: normal;
-	color: #272727;
-    font-size: 15px;
+	color: #636b6f;
+    font-size: 14px;
     line-height: 1.5;
 }
 
@@ -38,6 +38,31 @@ hr {
     margin: 20px 0;
 }
 
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    height: 0;
+    border: 0;
+    border: 1px solid #aaa;
+    padding: 0.2em 0.4em;
+    text-align: left
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+
+
 #sf3-dark hr{
     border-color: #3a3a3a;
 }
@@ -55,7 +80,10 @@ h1,h2,h3,h4,h5,h6{
 	margin-bottom:  15px;
 	padding: 		0px ;
 
-	font-weight: bold;
+    line-height: 1.1;
+    font-weight: 500;
+
+    color: inherit;
 }
 
 textarea, input{
@@ -90,6 +118,11 @@ pre, code {
     background: rgb(250, 250, 250);
 }
 
+pre{
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 
 .sf3-circle     { border-radius: 50%    !important ;}
 
@@ -236,6 +269,13 @@ pre, code {
 .sf3-hover-rotate-180:hover { transform:rotate(180deg); transform: ;}
 /* END ROTATE */
 
+
+.sf3-no-selection{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none;
+}
 
 
 /* START HORIZONTAL NAVBAR */
@@ -462,7 +502,7 @@ ul.sf3-navbar-vertical li a:hover{
 .sf3-orange      ,.sf3-hover-orange      :hover{background-color: #fe9700 !important; color: #333     ;}
 .sf3-deep-orange ,.sf3-hover-deep-orange :hover{background-color: #fe5621 !important; color: white    ;}
 .sf3-brown       ,.sf3-hover-brown       :hover{background-color: #785447 !important; color: white    ;}
-.sf3-light-grey  ,.sf3-hover-light-grey  :hover{background-color: #f5f5f5 !important; color: #4e614d  ;}
+.sf3-light-grey  ,.sf3-hover-light-grey  :hover{background-color: #f2f2f2 !important; color: #4e614d  ;}
 .sf3-grey        ,.sf3-hover-grey        :hover{background-color: #ccc    !important; color: #333     ;}
 .sf3-blue-grey   ,.sf3-hover-blue-grey   :hover{background-color: #5f7c8a !important; color: white    ;}
 .sf3-light-black ,.sf3-hover-light-black :hover{background-color: #333    !important; color: white    ;}
